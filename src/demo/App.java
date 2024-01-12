@@ -4,9 +4,7 @@ public class App {
 	
 	public static void main(String[] args) {
 		System.out.println("Hello, World!");
-	}
-
-	public static void main(String[] args) {
+	
 //		type name = value
 		byte byt = 25;
 		short shrt = 255;
@@ -22,9 +20,13 @@ public class App {
 //		need to use ' for a single character 
 		char c = 'j'; 
 //		need to use " for strings which are sequence of characters 
-		String s = "";
+//		
+		String s = "Jordan";
+//		
+		s.toLowerCase();
 		
-		
+//		string without a value is null 
+		s = null;
 		
 	}
 	
