@@ -1,4 +1,4 @@
-package demo;
+package Variables;
 
 public class App {
 	
