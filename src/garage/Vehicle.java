@@ -9,10 +9,11 @@ public class Vehicle {
 	private String colour;
 
 	public Vehicle() {
-
+		super();
 	}
 
 	public Vehicle(String make, String model, String colour) {
+		super();
 		setMake(make);
 		setModel(model);
 		setColour(colour);
