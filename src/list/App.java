@@ -19,7 +19,9 @@ public class App {
 		vehicles.add(new Bike("BMZ", "R1250", "Blue", "Small"));
 		vehicles.add(new Plane("Boeing", "747", "White", "Dual"));
 
+		System.out.println("Get Class:");
 		for (Vehicle vehicle : vehicles) {
+			System.out.println(vehicle.getClass().getSimpleName());
 			vehicle.print();
 		}
 
@@ -34,6 +36,8 @@ public class App {
 		myGarage.print();
 
 		System.out.println("Array changes of Vehicles to my Garage");
+
+		myGarage.print();
 
 	}
 }
